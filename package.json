@@ -11,7 +11,8 @@
     "format:check": "prettier --check --cache --cache-location=.cache/prettier/cache '**/*.js'",
     "format:write": "prettier --write --cache --cache-location=.cache/prettier/cache '**/*.js'",
     "lint:js": "eslint . --ext .js --cache --cache-location .cache/eslint",
-    "typecheck": "flow check"
+    "typecheck": "flow check",
+    "test": "node --test"
   },
   "packageManager": "pnpm@8.8.0",
   "devDependencies": {
