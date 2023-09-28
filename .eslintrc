@@ -1,6 +1,6 @@
 {
   "root": true,
-  "extends": ["eslint:recommended", "plugin:ft-flow/recommended", "prettier"],
   "parser": "hermes-eslint",
-  "plugins": ["fb-flow", "ft-flow"]
+  "plugins": ["fb-flow", "ft-flow"],
+  "extends": ["eslint:recommended", "plugin:ft-flow/recommended", "prettier"]
 }
