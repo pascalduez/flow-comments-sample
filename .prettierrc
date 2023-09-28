@@ -1,0 +1,19 @@
+{
+  "singleQuote": true,
+  "arrowParens": "avoid",
+  "plugins": ["prettier-plugin-hermes-parser"],
+  "overrides": [
+    {
+      "files": [".eslintrc", ".prettierrc"],
+      "options": {
+        "parser": "json"
+      }
+    },
+    {
+      "files": ["*.js", "*.jsx", "*.flow"],
+      "options": {
+        "parser": "hermes"
+      }
+    }
+  ]
+}

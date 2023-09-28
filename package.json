@@ -1,0 +1,26 @@
+{
+  "name": "flow-comments-sample",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "Unlicense",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "format:check": "prettier --check --cache --cache-location=.cache/prettier/cache '**/*.js'",
+    "format:write": "prettier --write --cache --cache-location=.cache/prettier/cache '**/*.js'",
+    "typecheck": "flow check"
+  },
+  "packageManager": "pnpm@8.8.0",
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-fb-flow": "^0.0.4",
+    "eslint-plugin-ft-flow": "^3.0.0",
+    "flow-bin": "^0.217.0",
+    "hermes-eslint": "^0.16.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-hermes-parser": "^0.16.0"
+  }
+}
