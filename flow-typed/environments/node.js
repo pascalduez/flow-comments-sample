@@ -1,21 +1,15 @@
-// flow-typed signature: 759ad3a3c5ddfe86ae4d2595478d162d
-// flow-typed version: 10ad36772a/node/flow_>=v0.155.x
-
-// https://nodejs.org/api/fs.html#promises-api
-
-declare module 'fs/promises' {
-  declare module.exports: $Exports<'fs'>['promises'];
-}
-
-declare module 'process' {
-  declare module.exports: Process;
-}
-
-declare module 'node:process' {
-  declare module.exports: $Exports<'process'>;
-}
+// flow-typed signature: a3d754833d2d13db6af0c39239ad8cbe
+// flow-typed version: 6fef4ebfa4/node/flow_>=v0.155.x
 
 // https://nodejs.org/api/esm.html#node-imports
+
+declare module 'node:assert' {
+  declare module.exports: $Exports<'assert'>;
+}
+
+declare module 'node:assert/strict' {
+  declare module.exports: $Exports<'assert'>['strict'];
+}
 
 declare module 'node:events' {
   declare module.exports: $Exports<'events'>;
@@ -25,16 +19,28 @@ declare module 'node:fs' {
   declare module.exports: $Exports<'fs'>;
 }
 
-declare module 'node:fs/promises' {
-  declare module.exports: $Exports<'fs'>['promises'];
-}
-
 declare module 'node:os' {
   declare module.exports: $Exports<'os'>;
 }
 
+declare module 'fs/promises' {
+  declare module.exports: $Exports<'fs'>['promises'];
+}
+
+declare module 'node:fs/promises' {
+  declare module.exports: $Exports<'fs'>['promises'];
+}
+
 declare module 'node:path' {
   declare module.exports: $Exports<'path'>;
+}
+
+declare module 'process' {
+  declare module.exports: Process;
+}
+
+declare module 'node:process' {
+  declare module.exports: $Exports<'process'>;
 }
 
 declare module 'node:util' {
