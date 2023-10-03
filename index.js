@@ -6,7 +6,7 @@ export function add(a /*: number */, b /*: number */) /*: number */ {
 
 add(1, 2);
 
-// $FlowExpectedError
+// $FlowExpectedError[incompatible-call]
 add('one', 'two');
 
 export function isString(value /*: mixed */) /*: value is string */ {

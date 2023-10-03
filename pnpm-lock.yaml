@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^3.0.0
     version: 3.0.0(eslint@8.50.0)(hermes-eslint@0.16.0)
   flow-bin:
-    specifier: ^0.217.0
-    version: 0.217.0
+    specifier: ^0.217.2
+    version: 0.217.2
   hermes-eslint:
     specifier: ^0.16.0
     version: 0.16.0
@@ -399,8 +399,8 @@ packages:
     resolution: {integrity: sha512-36yxDn5H7OFZQla0/jFJmbIKTdZAQHngCedGxiMmpNfEZM0sdEeT+WczLQrjK6D7o2aiyLYDnkw0R3JK0Qv1RQ==}
     dev: true
 
-  /flow-bin@0.217.0:
-    resolution: {integrity: sha512-AbbDE6QUpR+jpY9ejNROAk0P5D/2PxJzjU4D5vfmMwtS+QjjPjzfZGuatEJIn2k4PTZ2agbncaCtyHGO0AvG7A==}
+  /flow-bin@0.217.2:
+    resolution: {integrity: sha512-fk4NcfybYjzlww1sEsfk71nqXvonAYpMRFEjmZxibDWWBiaw8DGmqXWZ7XzSunVB15VkJfOstn/sYP1EYPPyWg==}
     engines: {node: '>=0.10.0'}
     hasBin: true
     dev: true
